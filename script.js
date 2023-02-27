@@ -19,6 +19,7 @@ if (birthYear && city && favoriteSport) {
             case "Лондон":
                 country = "Великобританія";
                 break;
+                 default:"";
         }
         message += `Ти живеш у Столиці ${country} .`;
     } else {
@@ -34,6 +35,7 @@ if (birthYear && city && favoriteSport) {
         case "баскетбол":
             message += "Круто! Хочеш стати Майклом Джорданом?";
             break;
+             default:message += ` ${favoriteSport}`;
     }
     alert(message);
 } else {
