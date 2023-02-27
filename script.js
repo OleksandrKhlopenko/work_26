@@ -35,7 +35,7 @@ if (birthYear && city && favoriteSport) {
         case "баскетбол":
             message += "Круто! Хочеш стати Майклом Джорданом?";
             break;
-             default:message += ` ${favoriteSport}`;
+             default:message += ` Ваш улюблений вид спорту ${favoriteSport}`;
     }
     alert(message);
 } else {
